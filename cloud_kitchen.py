@@ -3,7 +3,7 @@ from tabulate import tabulate
 print("____________________________________________________")
 print(" Cloud kitchen Management System")
 print("____________________________________________________")
-con=mycon.connect(host="localhost",user="root",passwd="Fortnite@12")
+con = mycon.connect(host="localhost", user="root", passwd="YOUR_PASSWORD")
 mycursor=con.cursor()
 mycursor.execute("create database cbse_project82446450013")
 mycursor.execute("use cbse_project82446450013")
